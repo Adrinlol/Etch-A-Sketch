@@ -1,0 +1,96 @@
+body {
+    background-color: #f1485b;
+    margin: 0;
+    font-family: 'Satisfy', cursive;
+    /* Move everything to the center */
+    text-align: center;
+  }
+  
+h1 {
+    margin-bottom: 0;
+    text-shadow: 4px 4px #222;
+    font-size: 44px;
+}
+  
+/* h5 heading is right under h1 */
+h2 {
+    margin-top: 5px;
+    font-style: italic;
+    font-size: 21px;
+    text-shadow: 2px 2px #222;
+}
+
+h1,h2 {
+    color:#FFCB3E;
+}
+
+button {
+    font-family: 'Russo One', sans-serif;
+    background-color: #222;
+    border: 2px solid #fff;
+    cursor: pointer;
+    color: white;
+    font-size: 13px;
+    align-content: center;
+    padding: 5px 20px;
+}
+
+button:hover {
+    background-color: #fff;
+    border-color: #222;
+    color: black;
+    border: 2px solid #222;
+}
+
+/* Display the board as a block */
+.row {
+    display: block;
+}
+
+/* Cells that are within board */
+.cell {
+    display: inline-block;
+    background-color: #fff;
+    border:0.4px solid #222;  
+    height: 30px;
+    width: 30px;
+    margin: 0 2px;
+    border-radius: 4px;
+}
+
+/* Remove the blue outline */
+button:focus {
+    outline: none;
+  }
+
+#board {
+    margin-top: 20px;
+}
+
+.active {
+    background-color: #FFCB3E;
+    color: #222;
+    border: 2px solid #222;
+}
+/*Collapsing so github registers javascript as the main file :D */
+@media only screen and (max-width: 782px) {
+    .cell {
+        width:18px;
+        height: 18px;
+      }
+      button {
+          font-size: 9px;
+          padding:5px 10px;
+      }
+      h1 {font-size: 25px;}
+      h2 {font-size: 14px;}
+}
+@media only screen and (max-width: 552px) {
+    .cell {width:15px;height: 15px;margin:0px 1px;}
+    button {font-size: 8px;padding:5px 5px;margin-top:5px;}
+    h1 {font-size: 23px;}
+    h2 {font-size: 12px;}
+}
+@media only screen and (max-width: 443px) {
+    .cell {width:12px;height: 12px;margin:0px 1px;}
+}
