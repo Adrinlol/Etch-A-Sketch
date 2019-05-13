@@ -2,8 +2,6 @@
 
 ![iron-man](https://user-images.githubusercontent.com/48876996/57640730-4600ad00-75c4-11e9-9c3a-e296652fccb6.JPG)
 
-**Etch-A-Sketch** is a browser version appliation of the famous drawing toy. 
-
 ## How it works
 - Player may choose one out of 7 colors at a time.
 - After selection click the cell you want to fill.
